@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 function About() {
   return (
     <div className="about">
-      <Header />
 
       <section className="aboutmoccasin">
         <section className="introduction" id="aboutme">
@@ -69,11 +68,9 @@ function About() {
           </button>
         </div>
         <div className="mainsnewscolumn">
-          <img src="../assets/images/Local-SEO.png" alt="Local SEO" id="mainnnewsphoto" />
+          <img src="/images/Local-SEO.png" alt="Local SEO" id="mainnnewsphoto" />
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
