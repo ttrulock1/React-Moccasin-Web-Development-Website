@@ -23,11 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore image files
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.svg
+# # Ignore image files
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
