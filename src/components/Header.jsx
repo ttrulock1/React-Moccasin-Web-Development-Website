@@ -10,8 +10,8 @@ function Header() {
         <ul id="toplinks">
           <li><a href="/">Home</a></li>
           <li><a href="/websites">Our Work</a></li>
-          <li><a href="/links">Links</a></li>
-          <li><a href="/socialmedia">Social Media</a></li>
+          <li><a href="/links">Contact</a></li>
+          {/* <li><a href="/socialmedia">Social Media</a></li> */}
           <li><a href="/about">About</a></li>
         </ul>
       </nav>
