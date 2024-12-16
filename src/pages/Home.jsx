@@ -8,7 +8,6 @@ function Home() {
     <div className="home">
 
       <section className="services3" id="services">
-        {/* <h2 className="servicestitle">Our Services</h2> */}
         <div className="services4">
           <section className="jobs">
             <h3>Website Development</h3>
@@ -116,15 +115,17 @@ function Home() {
       <section className="aboutmoccasin">
         <div className="aboutmoccasintext">
           <h2 className="aboutmoccasintitle">Who We Are</h2>
-          <p>
-            Moccasin provides web development and SEO Optimization to small businesses and organizations throughout Arizona, New Mexico, and the Southwestern United States.
-          </p>
-          <p>
-            We design websites tailored to your needs and work collaboratively with you to maximize your vision.
-          </p>
-          <p id="moccasintextp">
-            In all our work, we consider the best options for SEO Optimization, scalability, and design. Moccasin Development believes in working with the client. <a href="/seo">Click here to learn more about how we can help you and your business.</a>
-          </p>
+            <section className="aboutmoccasinparagraph">
+              <p>
+                Moccasin provides web development and SEO Optimization to small businesses and organizations throughout Arizona, New Mexico, and the Southwestern United States.
+              </p>
+              <p>
+                We design websites tailored to your needs and work collaboratively with you to maximize your vision.
+              </p>
+              <p id="moccasintextp">
+                In all our work, we consider the best options for SEO Optimization, scalability, and design. Moccasin Development believes in working with the client. <a href="/seo">Click here to learn more about how we can help you and your business.</a>
+              </p>
+            </section>
         </div>
       </section>
     </div>

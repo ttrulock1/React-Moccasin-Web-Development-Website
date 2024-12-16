@@ -1,4 +1,7 @@
 import React from "react";
+import Slideshow2 from "../components/SlideShow2";
+import Slideshow from "../components/SlideShow";
+
 import "../assets/styles/style.css"
 import "../assets/styles/style2.css"
 import "../assets/styles/slidingmarque.css"
@@ -35,11 +38,13 @@ function Testimonials() {
           </div>
         </section>
 
+
         <div className="slideshow-dots">
           <span className="dot"></span>
           <span className="dot"></span>
           <span className="dot"></span>
         </div>
+        
 
         <section className="contact-info">
           <h2>Contact Us</h2>
@@ -47,7 +52,10 @@ function Testimonials() {
           <p>Email: <a href="mailto:info@moccasin.org">info@moccasin.org</a></p>
           <p>Phone: (229) 364-7648</p>
         </section>
-      </main>
+      </main>        
+      <Slideshow2 />
+      <Slideshow />
+
     </div>
   );
 }
