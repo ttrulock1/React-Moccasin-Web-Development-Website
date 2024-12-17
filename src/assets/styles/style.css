@@ -54,7 +54,7 @@ header {
   background-color: white;
   display: flex;
   flex-direction: row;
-  /* background-image: url("./images/SEO.png"); */
+  background-image: url("../images/SEO.png");
 }
 
 .aboutmoccasinparagraph{
@@ -198,7 +198,7 @@ header {
 }
 
 .services3{
-  background-image: url("./images/servicesbackground2.jpeg");
+  /* background-image: url("./images/servicesbackground2.jpeg"); */
   background-size: cover;
   text-align: center;
   flex: auto;  
@@ -551,7 +551,7 @@ padding: 25px 50px 75px 75px;
   color: black;
   text-align: center;
   padding: 50px;
-  background-image: url("./images/interlaced-gray.png");
+  background-image: url('../images/interlaced-gray.png');
 }
 
 
@@ -671,7 +671,7 @@ padding: 25px 50px 75px 75px;
  }
 
   .services2 {
-    background-image: url("./images/QTLongSunset\(watermarkremoved\).jpg");
+    background-image: url("../images/QTLongSunset\(watermarkremoved\).jpg");
     background-size: cover !important;
     text-align: center;
     flex: auto;  
@@ -697,7 +697,7 @@ padding: 25px 50px 75px 75px;
 
   
 .blogcontent {
-    background-image: url("./images/QTLongSunset.jpeg");
+    background-image: url("../images/QTLongSunset.jpeg");
     background-size: cover;
     text-align: center;
     flex: auto;  
@@ -771,7 +771,7 @@ padding: 25px 50px 75px 75px;
   }
 
   .mywork1{
-    background-image: url("./images/interlaced-gray.png");
+    background-image: url("../images/interlaced-gray.png");
     background-position: center;
     background-repeat: repeat;
     max-width: 100%;
