@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Moccasin-Web-Development-Website/static/css/main.e2551245.css",
+    "main.js": "/React-Moccasin-Web-Development-Website/static/js/main.e4aca6e6.js",
+    "static/media/fa-solid-900.ttf": "/React-Moccasin-Web-Development-Website/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/SEO.png": "/React-Moccasin-Web-Development-Website/static/media/SEO.fad4223dc232d0e008bc.png",
+    "static/media/fa-brands-400.ttf": "/React-Moccasin-Web-Development-Website/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Moccasin-Web-Development-Website/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/React-Moccasin-Web-Development-Website/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/QTLongSunset(watermarkremoved).jpg": "/React-Moccasin-Web-Development-Website/static/media/QTLongSunset(watermarkremoved).bb2685ea1f2a338aba75.jpg",
+    "static/media/fa-regular-400.ttf": "/React-Moccasin-Web-Development-Website/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/QTLongSunset.jpeg": "/React-Moccasin-Web-Development-Website/static/media/QTLongSunset.b1c50c7a5a27a9ea743f.jpeg",
+    "static/media/fa-regular-400.woff2": "/React-Moccasin-Web-Development-Website/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/interlaced-gray.png": "/React-Moccasin-Web-Development-Website/static/media/interlaced-gray.62abeced5170bc4e8368.png",
+    "static/media/fa-v4compatibility.ttf": "/React-Moccasin-Web-Development-Website/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Moccasin-Web-Development-Website/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/React-Moccasin-Web-Development-Website/index.html",
+    "main.e2551245.css.map": "/React-Moccasin-Web-Development-Website/static/css/main.e2551245.css.map",
+    "main.e4aca6e6.js.map": "/React-Moccasin-Web-Development-Website/static/js/main.e4aca6e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2551245.css",
+    "static/js/main.e4aca6e6.js"
+  ]
+}
