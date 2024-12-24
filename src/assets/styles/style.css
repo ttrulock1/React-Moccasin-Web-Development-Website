@@ -54,7 +54,7 @@ header {
   background-color: white;
   display: flex;
   flex-direction: row;
-  background-image: url("../images/SEO.png");
+  /* background-image: url("../images/SEO.png"); */
 }
 
 .aboutmoccasinparagraph{
