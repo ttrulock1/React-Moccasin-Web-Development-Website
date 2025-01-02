@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Websites from "./pages/Websites";
-import SocialMedia from "./pages/SociaMedia";
+import SocialMedia from "./pages/SocialMedia";
 import Testimonials from "./pages/Testimonials";
 
 import "./assets/styles/style.css";
@@ -18,7 +18,7 @@ import "./assets/styles/style2.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Moccasin-Web-Development-Website">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,7 +28,6 @@ function App() {
         <Route path="/contactUs" element={<Contact />} />
         <Route path="/websites" element={<Websites />} />
         <Route path="/socialmedia" element={<SocialMedia />} />
-        <Route path="/about" element={<About />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
       <Footer />

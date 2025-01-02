@@ -6,21 +6,16 @@
   "homepage": "https://ttrulock1.github.io/React-Moccasin-Web-Development-Website/",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.0.2",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -33,7 +28,7 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.6"
   },
   "browserslist": {
     "production": [
