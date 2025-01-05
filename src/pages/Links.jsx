@@ -17,37 +17,37 @@ function Links() {
 
           <div className="Portfolio">
             <a href="http://culture-cross.org/" className="portfolio_item">
-              <img src="/images/DeathWaitsForYou.png" alt="Digital Art" />
+              <img src="/React-Moccasin-Web-Development-Website/images/DeathWaitsForYou.png" alt="Digital Art" />
               <p>Todd Trulock Digital Art</p>
             </a>
 
             <a href="https://flyingbiscuit.com/" className="portfolio_item">
-              <img src="/images/GitHub1.png" alt="GitHub" />
+              <img src="/React-Moccasin-Web-Development-Website/images/GitHub1.png" alt="GitHub" />
               <p>Todd Trulock GitHub</p>
             </a>
 
             <a href="https://elgatomontes.com/" className="portfolio_item">
-              <img src="/images/ElGatoMontes.png" alt="El Gato Montes" />
+              <img src="/React-Moccasin-Web-Development-Website/images/ElGatoMontes.png" alt="El Gato Montes" />
               <p>El Gato Montes</p>
             </a>
 
             <a href="https://flyapp.world/" className="portfolio_item">
-              <img src="/images/FlyAppWorld.png" alt="Fly App" />
+              <img src="/React-Moccasin-Web-Development-Website/images/FlyAppWorld.png" alt="Fly App" />
               <p>Fly App</p>
             </a>
 
             <a href="https://lafronteranm.org/" className="portfolio_item">
-              <img src="/images/WhateverMag.png" alt="Whatever Magazine" />
+              <img src="/React-Moccasin-Web-Development-Website/images/WhateverMag.png" alt="Whatever Magazine" />
               <p>Whatever Magazine</p>
             </a>
 
             <a href="https://gardendelitogo.com/" className="portfolio_item">
-              <img src="/images/GardenDeli.png" alt="Garden Deli" />
+              <img src="/React-Moccasin-Web-Development-Website/images/GardenDeli.png" alt="Garden Deli" />
               <p>Garden Deli</p>
             </a>
 
             <a href="https://www.southmag.com/" className="portfolio_item">
-              <img src="/images/SouthMagazine.png" alt="South Magazine" />
+              <img src="/React-Moccasin-Web-Development-Website/images/SouthMagazine.png" alt="South Magazine" />
               <p>South Magazine</p>
             </a>
 

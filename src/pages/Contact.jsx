@@ -10,7 +10,7 @@ function Contact() {
     <div className="contact-us">
       <section className="mainnews">
         <div className="mainsnewscolumn">
-          <img src="/images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
+          <img src="/React-Moccasin-Web-Development-Website/images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
         </div>
         <div className="mainsnewscolumn" id="LFCJobs">
           <h2 className="aboutmetitle">Web Development</h2>

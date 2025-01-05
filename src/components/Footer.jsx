@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <section className="bottommenu" id="bottommenu">
-        <img src="/images/MyLogo(Transparent).png" id="endlogo" alt="Moccasin Logo" />
+        <img src="/React-Moccasin-Web-Development-Website/images/MyLogo(Transparent).png" id="endlogo" alt="Moccasin Logo" />
         <div className="bottommenulist">
           <section id="bottomlinks">
             <ul>Contact us directly at (229)364-7648 or email us at info@Moccasin.org.</ul>

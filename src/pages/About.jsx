@@ -68,7 +68,7 @@ function About() {
           </button>
         </div>
         <div className="mainsnewscolumn">
-          <img src="/images/Local-SEO.png" alt="Local SEO" id="mainnnewsphoto" />
+          <img src="/React-Moccasin-Web-Development-Website/images/Local-SEO.png" alt="Local SEO" id="mainnnewsphoto" />
         </div>
       </section>
     </div>
