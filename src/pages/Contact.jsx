@@ -3,6 +3,7 @@ import "../assets/styles/style.css";
 import "../assets/styles/style2.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import CalendlyWidget from "../components/Calendly";
 
 
 function Contact() {
@@ -63,12 +64,12 @@ function Contact() {
           <button className="button button2">Click here to send us a quick question about us or our company.</button>
         </div>
         <div className="mainsnewscolumn">
-          <img src="/images/ToddWriting.jpg" alt="Todd Writing" id="mainnnewsphoto" />
+          <img src="/React-Moccasin-Web-Development-Website/images/ToddWriting.jpg" alt="Todd Writing" id="mainnnewsphoto" />
         </div>
       </section>
-
-      <Footer />
+      <CalendlyWidget />
     </div>
+    
   );
 }
 
