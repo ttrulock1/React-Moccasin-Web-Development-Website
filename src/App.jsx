@@ -8,6 +8,8 @@ import Services from "./pages/Services";
 import Links from "./pages/Links";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
+import Header2 from "./components/SecondaryHeader";
+import HamburgerHeader from "./components/HamburgerHeader";
 import Footer from "./components/Footer";
 import Websites from "./pages/Websites";
 import SocialMedia from "./pages/SocialMedia";
@@ -19,7 +21,9 @@ import "./assets/styles/style2.css";
 function App() {
   return (
     <Router basename="/React-Moccasin-Web-Development-Website">
-      <Header />
+      <Header />      
+      <Header2 />
+      <HamburgerHeader />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
