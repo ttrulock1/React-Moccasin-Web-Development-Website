@@ -20,7 +20,7 @@ import "./assets/styles/style2.css";
 
 function App() {
   return (
-    <Router basename="/React-Moccasin-Web-Development-Website">
+    <Router>
       <Header />      
       <Header2 />
       <HamburgerHeader />
