@@ -1,0 +1,171 @@
+/* Root Variables */
+:root {
+  --light: white;
+  --highlight: #FF8200;
+  --darkgrey: #333333;
+  --secondary-lightgrey: #f4f4f4;
+}
+
+/* Testimonials Container */
+.testimonials-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--highlight);
+  min-height: 300px;
+}
+
+/* Individual Slide Styling */
+.slide {
+  display: none; /* Initially hide all slides */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: var(--light);
+  font-size: 1.5em;
+  line-height: 1.6;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  display: flex; /* Show only the active slide */
+}
+
+.slide p {
+  margin: 0;
+  max-width: 90%;
+  line-height: 1.6;
+}
+
+/* Navigation Buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 10px;
+  color: var(--light);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  user-select: none;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Contact Section */
+.contact-container {
+  background-color: var(--darkgrey);
+  color: var(--light);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2em;
+  color: var(--highlight);
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contact-container a {
+  color: var(--highlight);
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  color: var(--light);
+}
+
+.contact-container .contact-box {
+  display: inline-block;
+  background-color: var(--secondary-lightgrey);
+  color: var(--darkgrey);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .slideshow-container {
+    min-height: 250px;
+  }
+
+  .slide {
+    font-size: 1.2em;
+  }
+
+  .slide p {
+    max-width: 95%;
+  }
+
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .contact-container .contact-box {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slideshow-container {
+    min-height: 200px;
+  }
+
+  .slide {
+    font-size: 1em;
+  }
+
+  .slide p {
+    max-width: 95%;
+  }
+
+  .prev,
+  .next {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
