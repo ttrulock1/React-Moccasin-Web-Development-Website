@@ -33,7 +33,7 @@ function Home() {
 
       <section className="mainnews">
         <div className="mainsnewscolumn">
-          <img src="/React-Moccasin-Web-Development-Website/images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
+          <img src="images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
         </div>
         <div className="mainsnewscolumn" id="LFCJobs">
           <h2 className="aboutmetitle">Web Development</h2>
@@ -56,41 +56,41 @@ function Home() {
           <h2 className="portfoliotitle">Our Sites</h2>
           <a href="/websites" className="portfolio_item">
             <div className="position-relative">
-              <img className="camp" src="/React-Moccasin-Web-Development-Website/images/topgolf.png" alt="TopGolf" />
+              <img className="camp" src="images/topgolf.png" alt="TopGolf" />
               <p>See all our websites.</p>
             </div>
           </a>
           <div className="Portfolio">
             <a href="http://culture-cross.org/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/CultureCross.png" alt="Culture Cross" />
+              <img src="images/CultureCross.png" alt="Culture Cross" />
               <p>Culture Cross Jewelry</p>
             </a>
             <a href="https://flyingbiscuit.com/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/flyingbiscuit.png" alt="Flying Biscuit" />
+              <img src="images/flyingbiscuit.png" alt="Flying Biscuit" />
               <p>Flying Biscuit</p>
             </a>
             <a href="https://elgatomontes.com/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/ElGatoMontes.png" alt="El Gato Montes" />
+              <img src="images/ElGatoMontes.png" alt="El Gato Montes" />
               <p>El Gato Montes</p>
             </a>
             <a href="https://flyapp.world/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/FlyAppWorld.png" alt="Fly App" />
+              <img src="images/FlyAppWorld.png" alt="Fly App" />
               <p>Fly App</p>
             </a>
             <a href="https://lafronteranm.org/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/WhateverMag.png" alt="Whatever Magazine" />
+              <img src="images/WhateverMag.png" alt="Whatever Magazine" />
               <p>Whatever Magazine</p>
             </a>
             <a href="https://gardendelitogo.com/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/GardenDeli.png" alt="Garden Deli" />
+              <img src="images/GardenDeli.png" alt="Garden Deli" />
               <p>Garden Deli</p>
             </a>
             <a href="https://www.southmag.com/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/SouthMagazine.png" alt="South Magazine" />
+              <img src="images/SouthMagazine.png" alt="South Magazine" />
               <p>South Magazine</p>
             </a>
             <a href="https://chuzefitness.com/" className="portfolio_item">
-              <img src="/React-Moccasin-Web-Development-Website/images/ChuzeFitness.png" alt="Chuze Fitness" />
+              <img src="images/ChuzeFitness.png" alt="Chuze Fitness" />
               <p>Chuze Fitness</p>
             </a>
           </div>

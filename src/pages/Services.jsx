@@ -6,10 +6,8 @@ import Footer from "../components/Footer";
 function Services() {
   return (
     <div className="services">
-      <Header />
-
       <section className="services3" id="services">
-        <h2 className="servicestitle">Our Services</h2>
+        {/* <h2 className="servicestitle">Our Services</h2> */}
         <div className="services4">
           <section id="jobs">
             <h3>Website Development</h3>
@@ -40,7 +38,7 @@ function Services() {
 
       <section className="webdevelopment">
         <div className="wordpress">
-          <img src="/React-Moccasin-Web-Development-Website/images/WordpressPic.png" alt="WordPress" />
+          <img src="images/WordpressPic.png" alt="WordPress" />
           <section className="webdevelopmenttext">
             <h3>WordPress or Squarespace Sites</h3>
             <p>
@@ -52,7 +50,7 @@ function Services() {
           </section>
         </div>
         <div className="codebasebaseddev">
-          <img src="/React-Moccasin-Web-Development-Website/images/flyingbiscuit.png" alt="Custom Development" />
+          <img src="images/flyingbiscuit.png" alt="Custom Development" />
           <section className="webdevelopmenttext">
             <h3>Professional Custom Sites</h3>
             <p>
@@ -66,7 +64,7 @@ function Services() {
 
       <section className="mainnews">
         <div className="mainsnewscolumn">
-          <img src="/React-Moccasin-Web-Development-Website/images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
+          <img src="images/webdevelopment.png" alt="Web Development" id="mainnnewsphoto" />
         </div>
         <div className="mainsnewscolumn" id="LFCJobs">
           <h2 className="aboutmetitle">Web Development</h2>
@@ -83,8 +81,6 @@ function Services() {
           </p>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import "../assets/styles/style2.css";
 function Header() {
   return (
     <header>
-      <img src="/React-Moccasin-Web-Development-Website/images/MyLogo(Transparent).png" alt="Moccasin House Logo" id="logo" />
+      <img src="/images/MyLogo(Transparent).png" alt="Moccasin House Logo" id="logo" />
       <nav>
         <ul id="toplinks">
           <li><a href="/">Home</a></li>

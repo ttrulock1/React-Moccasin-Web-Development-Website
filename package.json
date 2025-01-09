@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ttrulock1.github.io/React-Moccasin-Web-Development-Website/",
+  "homepage": "https://moccasinwedevelopment.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
